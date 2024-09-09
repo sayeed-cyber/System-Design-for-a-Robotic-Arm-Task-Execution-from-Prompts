@@ -6,6 +6,9 @@
 
 
 
+
+
+
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
   <!-- Workstation -->
@@ -57,3 +60,32 @@
   <rect x="250" y="60" width="10" height="10" fill="#0000ff"/>
   <text x="265" y="70" font-family="Arial" font-size="12">Sensor</text>
 </svg>
+
+```
+
+
+1. Workstation: The large rectangular area representing the workspace where the robotic arm operates.
+
+2. Robotic Arm: Shown in red, with its base at the center of the workstation. The arm is depicted in an extended position, reaching towards the work area.
+
+3. Gripper: At the end of the robotic arm, represented by a small red rectangle.
+
+4. RGB-D Camera: Positioned above the workstation (green rectangle), providing a top-down view of the entire work area.
+
+5. Force/Torque Sensor: A small blue circle near the gripper, used for precise control and feedback during task execution.
+
+6. Control Unit: Located in the bottom-right corner (yellow rectangle), representing the central processing unit that manages the system's operations.
+
+7. Knowledge Base: Positioned in the bottom-left corner (purple rectangle), storing information about objects, tasks, and procedures.
+
+8. Cleaning Supplies: A designated area (light blue rectangle) where cleaning materials are stored.
+
+9. Work Area: A dashed rectangle indicating the primary area where tasks are performed.
+
+10. Spill Location: Represented by a brown circle within the work area, simulating the coffee spill.
+
+This diagram provides a clear visual representation of how the different components of the robotic arm system are arranged in the workspace. It shows the relative positions of the arm, sensors, and other key elements, giving a good overview of how the system would be set up to handle tasks like cleaning a coffee spill.
+
+The robotic arm is centrally located, allowing it to reach all areas of the workspace. The RGB-D camera provides a comprehensive view of the entire area, enabling the system to locate the spill and navigate the arm effectively. The cleaning supplies are positioned within easy reach of the arm, and the control unit and knowledge base are placed out of the way but still within the workspace for easy access and maintenance.
+
+This layout allows the system to efficiently perceive its environment, plan its actions, and execute tasks based on natural language prompts, as we discussed in the earlier system design.
